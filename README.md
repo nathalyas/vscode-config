@@ -29,6 +29,11 @@ My VS Code configuration
     {
         "key": "alt+shift+f",
         "command": "editor.action.reindentlines"
+    },
+
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.addCommentLine"
     }
 ]
 ```
