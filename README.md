@@ -42,9 +42,16 @@ My VS Code configuration
 
 ``` javascript
 {
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "workbench.colorTheme": "Material Theme",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows2": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.mouseWheelZoom": true,
     "materialTheme.fixIconsRunning": false,
+    "materialTheme.accentPrevious": "Indigo",
+    "materialTheme.accent": "Teal",
+    "materialTheme.autoApplyIcons": true,
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Material Theme",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#80CBC4",
@@ -60,11 +67,6 @@ My VS Code configuration
         "notificationLink.foreground": "#80CBC4",
         "editor.findWidgetResizeBorder": "#80CBC4",
         "editorWidget.border": "#80CBC4"
-    },
-    "materialTheme.accentPrevious": "Indigo",
-    "window.zoomLevel": 0,
-    "materialTheme.accent": "Teal",
-    "materialTheme.autoApplyIcons": true,
-    "editor.mouseWheelZoom": true
+    }
 }
 ```
